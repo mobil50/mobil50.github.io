@@ -1,0 +1,216 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- obrigatório para funcionar em telemóveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>MOBIL50: DIGITAL ECHOES</title>
+    <link rel="icon" href="images/icon-54.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/otk8xmo.css">
+    <meta name="description" content="In this website you will be able to explore an arquive of ringtones through visual animations and have a perception of the evolution of this familiar sounds.">
+  </head>
+
+<body>
+  <header>
+    <div>
+      <a href="home.html" id="logo-link">
+        <img src="images/logo.png" alt="Mobil50" id="logo-image">
+      </a>
+      <div id="about">
+      <p><b class="bold">Mobil 50: Digital Echoes</b> is a virtual exhibition which educates about the evolution of technology through
+        impactful, interactive and fun sensory experiences. In this website you will be able to explore an arquive of ringtones through audio reactive
+        visual animations, which will give you a perception of the evolution of this familiar sounds.</p>
+     
+      
+    </div>
+  </div>
+   
+  </header>
+  
+  <main>
+
+     <!-- coluna -->
+     <aside>
+        <ul id="decades_position">
+          <li><a class="option_selected" onclick="toggle1970lements()">1970</a></li>
+            <li><a class="option_selected"onclick="toggle1980Elements()">1980</a></li>
+            <li><a class="option_selected"onclick="toggle1990Elements()">1990</a></li>
+            <li><a class="option_selected"onclick="toggle2000Elements()">2000</a></li>
+            <li><a class="option_selected"onclick="toggle2010Elements()">2010</a></li>
+            <li><a class="option_selected"onclick="toggle2020Elements()">2020</a></li>
+        </ul>
+      </aside>
+     
+      <div id="videos_todos">
+
+        <!-- tab1 -->
+        <div class="video-container"  onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+          <video id="tab1" width="405" height="228" autoplay loop muted>
+              <source src="videos/1970.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <script src="script.js"></script>
+              <h2 class="overlay-text"><strong>1970 AT&T</strong> CALLING...</h2>
+            </div>
+
+
+     <!-- tab2 -->
+     <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab2" class="draggable-element" width="300" height="300" autoplay loop muted>
+        <source src="videos/1777_03.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><strong>1977 Danmark 2</strong> CALLING...</h2>
+    </div>
+
+     <!-- tab3-->
+     <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab3" class="draggable-element" width="228" height="405" autoplay loop muted>
+        <source src="videos/1981_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>1981 Telestra Telecom</b> CALLING...</h2>
+    </div>
+
+     <!-- tab4-->
+     <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab4" class="draggable-element" width="405" height="228" autoplay loop muted>
+        <source src="videos/1983_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>1983 Motorola DynaTAC</b> CALLING...</h2>
+    </div>
+
+    <!-- tab5-->
+
+    <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab5" class="draggable-element" width="405" height="405" autoplay loop muted>
+        <source src="videos/1992_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>1992 Nokia 101</b> CALLING...</h2>
+    </div>
+
+     <!-- tab6-->
+
+   <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab6" class="draggable-element" width="200" height="200" autoplay loop muted>
+        <source src="videos/1994_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>1994 Ericsson T28</b> CALLING...</h2>
+    </div>
+  
+      <!-- tab7-->
+      <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab7" class="draggable-element" width="405" height="228" autoplay loop muted>
+        <source src="videos/2001_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2001 Siemens 545</b> CALLING...</h2>
+    </div>
+
+
+      <!-- tab8-->
+      <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab8"class="draggable-element"  width="228" height="405" autoplay loop muted>
+        <source src="videos/2007.0.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2007 IPhone 2G</b> CALLING...</h2>
+    </div>
+
+       <!-- tab9-->
+       <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab9" class="draggable-element" width="100" height="100" autoplay loop muted>
+        <source src="videos/kimpossible_01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2002 Kim Possible</b> CALLING...</h2>
+    </div>
+
+       <!-- tab10-->
+       <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab10" class="draggable-element" width="228" height="405" autoplay loop muted>
+        <source src="videos/1995.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>1995 Nokia 1610</b> CALLING...</h2>
+    </div>
+
+       <!-- tab11-->
+       <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+      <video id="tab11" class="draggable-element" width="300" height="300" autoplay loop muted>
+        <source src="videos/2010_2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2010 Samsung Galaxy S</b> CALLING...</h2>
+    </div>
+  
+       <!-- tab12-->
+       <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+        <video id="tab12" class="draggable-element" width="228" height="405" autoplay loop muted>
+          <source src="videos/2017.1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2017 IPhone X</b> CALLING...</h2>
+    </div>
+
+       <!-- tab13-->
+       <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+        <video id="tab13" class="draggable-element" width="405" height="405" autoplay loop muted>
+          <source src="videos/2019.1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2019 Samsung Galaxy Fold</b> CALLING...</h2>
+    </div>
+
+      <!-- tab14-->
+      <div class="video-container" onmouseover="unmuteVideo(this)" onmouseout="muteVideo(this)">
+        <video id="tab14" class="draggable-element" width="405" height="228" autoplay loop muted>
+          <source src="videos/2022.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      <script src="script.js"></script>
+      <h2 class="overlay-text"><b>2022 Huawei Matte50</b> CALLING...</h2>
+    </div>
+
+
+    </div>
+      
+
+  <footer>
+    <!-- <div class="controls">
+      <h2 onclick="unmuteVideo()">CALLING...</h2>
+    </div> -->
+    <div class="all" onclick="toggleAllTabs()">
+      <h2>ALL</h2>
+  </div>
+  </footer>
+
+  <!-- <script>
+  var my=document.getElementById("tab1");
+
+  function muteVideo(){
+  my.muted=true;
+}
+  function unmuteVideo(){
+  my.muted=false;
+}   
+  </script> -->
+
+
+</body>
+</html>
